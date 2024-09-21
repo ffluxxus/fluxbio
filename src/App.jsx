@@ -6,7 +6,7 @@ import twitter from './images/x.png';
 import insta from './images/insta.png';
 import yt from './images/yt.png';
 import discord from './images/discord.png';
-import cover from './images/cover.png';
+import cover from './images/cover.jpg';
 import stop from './song/music.mp3';
 import bg from './videos/car.mp4';
 import git from './images/git2.png';
