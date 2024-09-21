@@ -10,7 +10,7 @@ function Main() {
     <Router>
       <Switch>
         <Route exact path="/" component={Home} /> {/* Render Home component on the home page */}
-        <Route path="/shadow" component={App} /> {/* Render App component when navigating to /shadow */}
+        <Route path="/flux" component={App} /> {/* Render App component when navigating to /shadow */}
         {/* Add more routes if necessary */}
       </Switch>
     </Router>
