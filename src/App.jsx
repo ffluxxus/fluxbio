@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
-import pfp from './images/pfp1.gif';
+import pfp from './images/pfp.png';
 import view from './images/viewW.svg';
 import twitter from './images/x.png';
 import insta from './images/insta.png';
