@@ -12,7 +12,7 @@ import bg from './videos/car.mp4';
 import git from './images/git2.png';
 
 function App() {
-  const [viewCount, setViewCount] = useState(3242);
+  const [viewCount, setViewCount] = useState(0);
   const [currentTime, setCurrentTime] = useState(0);
   const maxTime = 128;
   const [isPlaying, setIsPlaying] = useState(false);
@@ -25,7 +25,7 @@ function App() {
   const [entered, setEntered] = useState(false); // State for animation
 
   // Typewriter effect
-  const [bioText, setBioText] = useState("Owner of shdw.site");
+  const [bioText, setBioText] = useState("flux");
   const [index, setIndex] = useState(0);
   const [isTyping, setIsTyping] = useState(true);
 
