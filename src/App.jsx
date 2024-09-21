@@ -12,7 +12,7 @@ import bg from './videos/car.mp4';
 import git from './images/git2.png';
 
 function App() {
-  const [viewCount, setViewCount] = useState(0);
+  const [viewCount, setViewCount] = useState(5911);
   const [currentTime, setCurrentTime] = useState(0);
   const maxTime = 128;
   const [isPlaying, setIsPlaying] = useState(false);
@@ -119,7 +119,7 @@ function App() {
   
   function audioPlay() {
     var audio = document.getElementById('audio');
-    audio.volume = 1;
+    audio.volume = 0.5;
     audio.play();
   }
 
